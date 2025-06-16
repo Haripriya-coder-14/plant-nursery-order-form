@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHVYA NURSERY</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icon.jpg" type="image">
+</head>
+<body>
+    <h2>🌱DHVYA NURSERY</h2>
+    <form action="">
+        <div>
+            <fieldset>
+            <table>
+
+            <legend>🍀CUSTOMER INFORMATION</legend>
+
+            <tr><th><label for="cid">CUSTOMER ID</label></th>
+            <th><input type="text" placeholder="DHV-000035">
+            <p>If you are a previous customer</p></th>
+            </tr>
+
+            <tr><th><label for="name">NAME</label></th>
+            <th><input type="text" placeholder="Ex. DHVYA" required>
+            <p>Enter your name</p></th>
+            </tr>
+
+            <tr><th><label for="phoneno.">PHONE NUMBER</label></th>
+            <th><input type="text" maxlength="16" placeholder="+91 000 000 0000" required>
+            <p>Enter your phone-number</p></th>
+            </tr>
+
+            <tr><th><label for="email">E-MAIL</label></th>
+            <th><input type="email" placeholder="........@gmail.com">
+            <p>Enter your email</p></th>
+            </tr>
+
+            </table>
+        </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+            <legend>🍀ORDER DETAILS</legend>
+
+            <table>
+                <tr>
+                    <th><label for="plantname">PLANT NAME / TYPE</label></th>
+                    <TH><select name="" id="">
+                        <option value="indoor">INDOOR</option>
+                        <option value="outdoor">OUTDOOR</option>
+                        <option value="flowering">FLOWERING</option>
+                        <option value="succulent">SUCCULENT</option></select>
+                    </TH>    
+                </tr>
+
+                <tr>
+                    <th><label for="quantity">QUANTITY</label></th>
+                    <th><input type="number" min="1" required>
+                    <p>Number of plants</p></th>
+                </tr>
+
+                <tr>
+                    <th><label for="pottype">POT TYPE</label></th>
+                    <th><select name="" id="">
+                        <option value="cpot">CERAMIC POT</option>
+                        <option value="mudpot">MUD POT</option>
+                        <option value="none">NONE</option>
+                        <option value="ppot">PLASTIC POT</option>
+                        <option value="pbag">PLASTIC BAG</option>
+                    </select></th>
+                </tr>
+
+                <tr>
+                    <th><label for="plantsize">PLANT SIZE</label></th>
+                    <th><input type="checkbox" name="plantsize" value="small"><label for="">SMALL</label>
+                        <input type="checkbox" name="plantsize" value="medium"><label for="">MEDIUM</label>
+                        <input type="checkbox" name="plantsize" value="large"><label for="">LARGE</label>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th><label for="daddress">DELIVERY ADDRESS</label></th>
+                    <th><input type="text">
+                    <p>Please mention the correct address</p></th>
+                </tr>
+
+                <tr>
+                    <th><label for="ddate">PREFERRED DELIVERY DATE</label></th>
+                    <th><input type="date"></th>
+                </tr>
+
+                <tr>
+                    <th><label for="attach">ATTACHMENTS</label></th>
+                    <th><input type="file">
+                    <p>Reference image</p></th>
+                </tr>
+
+            </table>
+        </fieldset> 
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <table>
+                    <legend>🍀PAYMENT DETAILS</legend>
+
+                    <tr>
+                        <th><label for="pmode">MODE OF PAYMENT</label></th>
+                        <th><input type="radio" name="pmode" value="cash"><label for="">CASH</label>
+                            <input type="radio" name="pmode" value="upi"><label for="">UPI</label>
+                            <input type="radio" name="pmode" value="onlinetransfer"><label for="">ONLINE TRANSFER</label>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="cphone">CONTACT PHONE NUMBER</label></th>
+                        <th><input type="text" required></th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="dmode">DELIVERY MODE</label></th>
+                        <th>
+                            <input type="radio" name="dmode" value="delivery"><label for="">DELIVERY</label>
+                            <input type="radio" name="dmode" value="pickup"><label for="">PICK UP</label>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="">FEED BACK</label></th>
+                        <th><textarea name="" id="" cols="30" rows="5"></textarea>
+                        <p>Your feedback helps us to grow☺️</p></th>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+            
+        <div style="display:flex; justify-content: space-between;">
+        <button type="reset">RESET</button>
+        <button type="submit">PLACE ORDER</button>
+        </div>
+    </form>
+</body>
+</html>

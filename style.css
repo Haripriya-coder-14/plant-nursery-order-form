@@ -1,0 +1,64 @@
+@import url('https://fonts.cdnfonts.com/css/neo-trash');
+@import url('https://fonts.cdnfonts.com/css/starlight-lines');
+@import url('https://fonts.cdnfonts.com/css/comfy');
+
+                
+
+                               
+                
+body{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+table{
+    text-align: left;
+    
+}
+fieldset{
+    border-radius: 9px;
+    width: 550px;
+    border: #053605 dotted;
+}
+input{
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+h2{
+    font-family: 'NeoTrash', sans-serif;                                                
+    text-align: center;                       
+}
+legend{
+    font-family:sans-serif;   
+    font-size:larger;                                                                                            
+}
+input[required]{
+    box-shadow: 1px 2px 1px;
+}
+input:focus{
+    background-color: #2A7B9B;
+}
+input[type="radio"]:checked{
+    width:15px;
+    height: 15px;
+}
+input[type="radio"]:checked+label{
+    font-size: 18px;
+}
+input+p{
+    display: none;
+}
+input:hover +p{
+    display: inline;
+    background-color: yellowgreen;
+}
+select:focus{
+    background-color: #2A7B9B;
+}
+textarea+p{
+    display: none;
+}
+textarea:hover+p{
+    display: inline;
+    background-color: yellowgreen;
+}
+
